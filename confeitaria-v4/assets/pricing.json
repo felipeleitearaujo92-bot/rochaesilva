@@ -1,0 +1,247 @@
+{
+  "bolos": {
+    "massas": [
+      {
+        "id": "pao_de_lo",
+        "nome": "Pão de Ló"
+      },
+      {
+        "id": "chocolate",
+        "nome": "Chocolate"
+      },
+      {
+        "id": "baunilha",
+        "nome": "Baunilha"
+      }
+    ],
+    "recheios": [
+      {
+        "id": "prestigio",
+        "nome": "Prestígio",
+        "grupo": 1
+      },
+      {
+        "id": "brig_branco",
+        "nome": "Brigadeiro Branco",
+        "grupo": 1
+      },
+      {
+        "id": "brig_preto",
+        "nome": "Brigadeiro Preto 50% cacau",
+        "grupo": 1
+      },
+      {
+        "id": "dois_amores",
+        "nome": "Dois Amores",
+        "grupo": 1
+      },
+      {
+        "id": "doce_leite",
+        "nome": "Doce de Leite",
+        "grupo": 1
+      },
+      {
+        "id": "pessego",
+        "nome": "Pêssego",
+        "grupo": 1
+      },
+      {
+        "id": "abacaxi_coco",
+        "nome": "Abacaxi com Coco",
+        "grupo": 1
+      },
+      {
+        "id": "quatro_leites",
+        "nome": "Quatro Leites",
+        "grupo": 1
+      },
+      {
+        "id": "leite_ninho",
+        "nome": "Leite Ninho",
+        "grupo": 1
+      },
+      {
+        "id": "ganache",
+        "nome": "Ganache de Chocolate",
+        "grupo": 1
+      },
+      {
+        "id": "sonho_valsa",
+        "nome": "Sonho de Valsa",
+        "grupo": 2
+      },
+      {
+        "id": "oreo",
+        "nome": "Óreo",
+        "grupo": 2
+      },
+      {
+        "id": "ovomaltine",
+        "nome": "Ovomaltine",
+        "grupo": 2
+      },
+      {
+        "id": "floresta_negra",
+        "nome": "Floresta Negra",
+        "grupo": 2
+      },
+      {
+        "id": "torta_limao",
+        "nome": "Torta de Limão",
+        "grupo": 2
+      },
+      {
+        "id": "doce_leite_ameixa",
+        "nome": "Doce de Leite com Ameixa",
+        "grupo": 2
+      },
+      {
+        "id": "ninho_nutella",
+        "nome": "Leite Ninho com Nutella",
+        "grupo": 2
+      },
+      {
+        "id": "trufado_choc",
+        "nome": "Trufado de Chocolate",
+        "grupo": 2
+      },
+      {
+        "id": "ferrero",
+        "nome": "Ferrero Rocher",
+        "grupo": 3
+      },
+      {
+        "id": "rafaello",
+        "nome": "Rafaello",
+        "grupo": 3
+      },
+      {
+        "id": "kinder_bueno",
+        "nome": "Kinder Bueno",
+        "grupo": 3
+      },
+      {
+        "id": "kit_kat",
+        "nome": "Kit Kat",
+        "grupo": 3
+      },
+      {
+        "id": "bis",
+        "nome": "Bis",
+        "grupo": 3
+      },
+      {
+        "id": "ouro_branco",
+        "nome": "Ouro Branco",
+        "grupo": 3
+      },
+      {
+        "id": "brig_gourmet_preto",
+        "nome": "Brigadeiro Gourmet Preto",
+        "grupo": 3
+      },
+      {
+        "id": "brig_gourmet_branco",
+        "nome": "Brigadeiro Gourmet Branco",
+        "grupo": 3
+      },
+      {
+        "id": "maracuja",
+        "nome": "Maracujá",
+        "grupo": 3
+      },
+      {
+        "id": "morango",
+        "nome": "Morango",
+        "grupo": 3
+      },
+      {
+        "id": "nozes",
+        "nome": "Nozes",
+        "grupo": 3
+      },
+      {
+        "id": "pistache",
+        "nome": "Pistache",
+        "grupo": 3
+      }
+    ],
+    "formatos": {
+      "redondo": {
+        "nome": "Redondo",
+        "tamanhos": [
+          {
+            "id": "p13",
+            "nome": "P (13 cm) — 1 kg — 10 fatias",
+            "precos": {
+              "g1": 80.0,
+              "g2": 110.0,
+              "g3": 130.0
+            }
+          },
+          {
+            "id": "m15",
+            "nome": "M (15 cm) — 1,5 kg — 15 fatias",
+            "precos": {
+              "g1": 120.0,
+              "g2": 165.0,
+              "g3": 195.0
+            }
+          },
+          {
+            "id": "g17",
+            "nome": "G (17 cm) — 2 kg — 20 fatias",
+            "precos": {
+              "g1": 130.0,
+              "g2": 220.0,
+              "g3": 260.0
+            }
+          },
+          {
+            "id": "gg20",
+            "nome": "GG (20 cm) — 3 kg — 30 fatias",
+            "precos": {
+              "g1": 240.0,
+              "g2": 330.0,
+              "g3": 390.0
+            }
+          },
+          {
+            "id": "xg25",
+            "nome": "XG (25 cm) — 4 kg — 40 fatias",
+            "precos": {
+              "g1": 320.0,
+              "g2": 450.0,
+              "g3": 520.0
+            }
+          },
+          {
+            "id": "xxg35",
+            "nome": "XXG (35 cm) — 5 kg — 50 fatias",
+            "precos": {
+              "g1": 400.0,
+              "g2": 550.0,
+              "g3": 650.0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "kits": [
+    {
+      "id": "doces_gourmet",
+      "nome": "Docinhos Gourmet 15g",
+      "preco": 130.0,
+      "img": "assets/imagens/kit-doces-gourmet.jpg",
+      "descricao": "2 sabores por cento. Sabores: Brigadeiro 50% cacau, Brigadeiro Laka, Beijinho, Dois Amores, Churros, Surpresa de Uva, Leite Ninho, Paçoca, Café, Bicho de Pé, Maracujá."
+    },
+    {
+      "id": "doces_padrao",
+      "nome": "Docinhos Padrão Aniversário 10g",
+      "preco": 110.0,
+      "img": "assets/imagens/kit-doces-padrao.jpg",
+      "descricao": "2 sabores por cento. Sabores: Brigadeiro 50% cacau, Brigadeiro Laka, Beijinho, Dois Amores, Leite Ninho."
+    }
+  ]
+}
