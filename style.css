@@ -1,0 +1,118 @@
+/* ================================
+   Importação de fontes
+   ================================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+/* ================================
+   Variáveis de Design System
+   ================================ */
+:root {
+  --color-background: #FAF6F0;   /* fundo principal */
+  --color-text: #4F2B24;         /* cor padrão dos textos */
+  --color-highlight: #E5338A;    /* cor de destaque (botões, links) */
+  --color-card-bg: #FFFFFF;      /* fundo dos cards e seções */
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --font-titles: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+/* ================================
+   Reset básico para consistência
+   ================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ================================
+   Títulos (hierarquia tipográfica)
+   ================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-titles);
+  color: var(--color-text);
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ================================
+   Textos comuns
+   ================================ */
+p, span, li, a, button {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+/* ================================
+   Links
+   ================================ */
+a {
+  color: var(--color-highlight);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #c7266e; /* tom mais escuro do rosa */
+}
+
+/* ================================
+   Botões (globais)
+   ================================ */
+button,
+.btn {
+  background-color: var(--color-highlight);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #c7266e; /* tom mais escuro ao hover */
+  transform: scale(1.02);
+}
+
+button:active,
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* ================================
+   Cards e Seções
+   ================================ */
+.section,
+.card {
+  background-color: var(--color-card-bg);
+  box-shadow: var(--shadow-default);
+  border-radius: 12px;
+  padding: 2em;
+  margin-bottom: 2em;
+}
