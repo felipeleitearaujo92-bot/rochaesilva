@@ -9,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta name="description" content="Bolos personalizados e kits festa sob encomenda. Orçamento pelo WhatsApp.">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -40,13 +39,13 @@
 <main class="container section">
   <h1>Monte seu Bolo</h1>
   <div class="grid-2">
-    <section class="section" class="card">
+    <section class="card">
       <div class="p">
         <h3>1) Massa</h3>
         <div id="optMassa" class="options"></div>
       </div>
     </section>
-    <section class="section" class="card">
+    <section class="card">
       <div class="p">
         <h3>2) Recheio</h3>
         <label><input type="radio" name="grupo" value="1" checked> Opção 1</label>
@@ -55,26 +54,26 @@
         <div id="optRecheio" class="options" style="margin-top:.5rem"></div>
       </div>
     </section>
-    <section class="section" class="card">
+    <section class="card">
       <div class="p">
         <h3>3) Tamanho (Redondo)</h3>
         <div id="optTamanho" class="options"></div>
       </div>
     </section>
-    <section class="section" class="card">
+    <section class="card">
       <div class="p">
         <h3>Resumo deste bolo</h3>
         <p><strong>Preço:</strong> R$ <span id="precoBolo">0,00</span></p>
         <label>Observação (opcional)
           <textarea id="obsBolo" class="input" rows="2" placeholder="Ex.: escrever ‘Feliz Aniversário, Ana’"></textarea>
         </label>
-        <div style="margin-top:1rem"><button class="btn" class="btn" id="addBolo">Adicionar ao Orçamento</button></div>
+        <div style="margin-top:1rem"><button class="btn" id="addBolo">Adicionar ao Orçamento</button></div>
       </div>
     </section>
   </div>
 
-  <section class="section" id="resumo" class="summary">
-    <div class="head"><h3>Resumo do Pedido</h3><button class="btn" class="btn" id="btnLimpar">Limpar</button></div>
+  <section id="resumo" class="summary">
+    <div class="head"><h3>Resumo do Pedido</h3><button class="btn" id="btnLimpar">Limpar</button></div>
     <div class="body">
       <table class="table" id="cartTable"><thead><tr><th>Item</th><th>Qtd</th><th>Obs.</th><th>Preço</th><th>Subtotal</th><th></th></tr></thead><tbody></tbody></table>
       <div style="margin-top:1rem">

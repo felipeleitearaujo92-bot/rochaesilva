@@ -1,56 +1,136 @@
-/* ================================
-   Placeholders para imagens
-   ================================ */
+
+/* ==============================
+   Google Fonts Import
+============================== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+/* ==============================
+   Global Styles (Design System)
+============================== */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAF6F0;
+  color: #4F2B24;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #4F2B24;
+}
+
+a {
+  color: #E5338A;
+  text-decoration: none;
+}
+
+button {
+  background-color: #E5338A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c72a72;
+}
+
+/* ==============================
+   Cards & Sections
+============================== */
+section {
+  padding: 60px 20px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Grid for product cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* ==============================
+   Hero Section
+============================== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+   Placeholders
+============================== */
 .placeholder {
   display: block;
   width: 100%;
   min-height: 250px;
   background-color: #E0E0E0;
   border-radius: 8px;
-  object-fit: cover;
 }
 
-/* ================================
-   Grid para cards de produtos
-   ================================ */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-}
-
-/* ================================
-   Hero Section
-   ================================ */
-.hero {
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5em;
-}
-
-.hero p {
-  margin-bottom: 1.5em;
-  font-size: 1.2rem;
-}
-
-/* ================================
-   Sobre Nós
-   ================================ */
-.about-content {
+/* About Section */
+.about {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 20px;
   align-items: center;
 }
 
 .about-text {
-  flex: 1;
+  flex: 1 1 300px;
 }
 
 .about-image {
-  flex: 1;
-  min-height: 300px;
+  flex: 1 1 300px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+}
+
+.testimonial-placeholder {
+  width: 100%;
+  min-height: 150px;
+  background-color: #E0E0E0;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
 }
