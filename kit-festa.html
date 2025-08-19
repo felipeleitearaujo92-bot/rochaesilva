@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta name="description" content="Bolos personalizados e kits festa sob encomenda. Orçamento pelo WhatsApp.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -47,7 +48,7 @@
         <p class="kit-desc"></p>
         <label>Qtd. (centos) <input type="number" class="input kit-qty" min="1" value="1" style="max-width:120px"></label>
         <label style="margin-top:.5rem">Observação (opcional) <input type="text" class="input kit-obs" placeholder="Ex.: sabores: Ninho e Churros"></label>
-        <div class="p" style="padding-left:0"><button class="btn kit-add">Adicionar ao Orçamento</button></div>
+        <div class="p" style="padding-left:0"><button class="btn" class="btn kit-add">Adicionar ao Orçamento</button></div>
       </div>
     </article>
     <article class="card" data-kit="doces_padrao">
@@ -58,13 +59,13 @@
         <p class="kit-desc"></p>
         <label>Qtd. (centos) <input type="number" class="input kit-qty" min="1" value="1" style="max-width:120px"></label>
         <label style="margin-top:.5rem">Observação (opcional) <input type="text" class="input kit-obs" placeholder="Ex.: sabores: Brigadeiro e Beijinho"></label>
-        <div class="p" style="padding-left:0"><button class="btn kit-add">Adicionar ao Orçamento</button></div>
+        <div class="p" style="padding-left:0"><button class="btn" class="btn kit-add">Adicionar ao Orçamento</button></div>
       </div>
     </article>
   </div>
 
-  <section id="resumo" class="summary">
-    <div class="head"><h3>Resumo do Pedido</h3><button class="btn" id="btnLimpar">Limpar</button></div>
+  <section class="section" id="resumo" class="summary">
+    <div class="head"><h3>Resumo do Pedido</h3><button class="btn" class="btn" id="btnLimpar">Limpar</button></div>
     <div class="body">
       <table class="table" id="cartTable"><thead><tr><th>Item</th><th>Qtd</th><th>Obs.</th><th>Preço</th><th>Subtotal</th><th></th></tr></thead><tbody></tbody></table>
       <div style="margin-top:1rem">
