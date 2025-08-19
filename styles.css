@@ -1,0 +1,35 @@
+:root{--primary:#800020;--bg:#fff;--highlight:#FFFACD;--text:#333;--radius:16px;--shadow:0 10px 25px rgba(0,0,0,.06)}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Lato',system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;margin:0 0 .5rem}a{color:var(--primary);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.btn{display:inline-block;padding:.7rem 1rem;border-radius:10px;background:var(--primary);color:#fff;box-shadow:var(--shadow);border:none;cursor:pointer}
+.badge{background:var(--highlight);padding:.15rem .5rem;border-radius:999px;color:#662233;font-weight:600}
+header.site{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
+header .inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:.75rem}.logo img{height:40px;width:auto}
+nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}nav a{padding:.5rem .75rem;border-radius:10px}nav a:hover{background:#f8f8f8}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.card img{width:100%;height:220px;object-fit:cover;display:block}.card .p{padding:1rem}.section{padding:2rem 0}
+.table{width:100%;border-collapse:collapse;border:1px solid #eee;border-radius:12px;overflow:hidden}
+.table th,.table td{padding:.6rem .8rem;border-bottom:1px solid #f2f2f2;text-align:left;vertical-align:top}.table th{background:#fafafa}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.options label{display:block;margin:.35rem 0}
+.summary{margin-top:2rem;background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:var(--shadow)}
+.summary .head{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #eee}
+.summary .body{padding:1rem}.summary .footer{padding:1rem;border-top:1px solid #eee;text-align:right}
+.input{padding:.6rem .8rem;border:1px solid #ddd;border-radius:12px;width:100%}
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:1rem;align-items:center}
+.about img{width:100%;border-radius:16px;box-shadow:var(--shadow)}
+.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.testi{background:#fff;border-radius:16px;padding:1rem;box-shadow:var(--shadow);border:1px solid #eee}
+.stars{letter-spacing:2px}
+footer.site{margin-top:2rem;padding:1.5rem 0;border-top:1px solid #eee}
+footer .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem}
+.links a{display:inline-block;margin:.2rem .4rem .2rem 0}
+@media(max-width:900px){
+  .cards{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+  .about{grid-template-columns:1fr}
+  .testimonials{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr}
+}
