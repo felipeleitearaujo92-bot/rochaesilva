@@ -85,7 +85,7 @@ a:hover {
 button,
 .btn {
   background-color: var(--color-highlight);
-  color: #fff;
+  color: #fff; /* Texto sempre branco */
   font-weight: 600;
   padding: 0.75em 1.5em;
   border: none;
@@ -97,13 +97,17 @@ button,
 button:hover,
 .btn:hover {
   background-color: #c7266e; /* tom mais escuro ao hover */
+  color: #fff; /* mantém o texto branco no hover */
   transform: scale(1.02);
 }
 
 button:active,
 .btn:active {
+  background-color: #a51d58; /* ainda mais escuro ao clicar */
+  color: #fff; /* mantém o texto branco no active */
   transform: scale(0.98);
 }
+
 
 /* ================================
    Cards e Seções
